@@ -1,0 +1,84 @@
+[
+  {
+    "description": "  As a registered  <user-type>\n  In order to login to the application\n  I want to be able to acess <user-type> dashboard",
+    "elements": [
+      {
+        "id": "login-in-dch;login-for-registered-and-approved-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login for registered and approved user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the DCH Login page",
+            "result": {
+              "status": "passed",
+              "duration": 4615585590
+            },
+            "line": 8,
+            "match": {
+              "location": "FRONTEND/test/step-definitions/login-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"9842650585\" and I enter \"sujan@1996\" and I click login",
+            "result": {
+              "status": "passed",
+              "duration": 824191135
+            },
+            "line": 9,
+            "match": {
+              "location": "FRONTEND/test/step-definitions/login-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Welcome\" in the results",
+            "result": {
+              "status": "passed",
+              "duration": 720318570
+            },
+            "line": 10,
+            "match": {
+              "location": "FRONTEND/test/step-definitions/login-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 542692706
+            },
+            "hidden": true,
+            "match": {
+              "location": "FRONTEND/test/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-in-dch",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Login in DCH",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "/home/sujan/Dropbox/Dissertation/DISSERTATION/DCH/DCH FRONTEND/test/features/login.feature"
+  }
+]

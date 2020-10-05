@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-in-dch;login-for-registered-and-approved-user" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@search" value="true">
+            </property>
+            <property name="URI" value="/home/sujan/Dropbox/Dissertation/DISSERTATION/DCH/DCH FRONTEND/test/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the DCH Login page" classname="login-in-dch;login-for-registered-and-approved-user" time="4.61558559">
+        </testcase>
+        <testcase name="When I enter &quot;9842650585&quot; and I enter &quot;sujan@1996&quot; and I click login" classname="login-in-dch;login-for-registered-and-approved-user" time="0.824191135">
+        </testcase>
+        <testcase name="Then I should see &quot;Welcome&quot; in the results" classname="login-in-dch;login-for-registered-and-approved-user" time="0.72031857">
+        </testcase>
+    </testsuite>
+</testsuites>

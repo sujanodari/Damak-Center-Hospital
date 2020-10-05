@@ -1,0 +1,27 @@
+.login__top {
+  display: flex;
+  background-color: #f3c4c4;
+  height: 51px;
+  align-items: center;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.login__topLeft {
+  display: flex;
+  align-content: center;
+  flex: 1;
+}
+.login_header{
+  display: flex;
+  align-content: center;
+  flex: 2;
+  color: #f50057 !important;
+}
+.login__topRight {
+  display: flex;
+  align-content: center;
+  border-right: 1px solid #ddd;
+}
+

@@ -1,0 +1,90 @@
+#body {
+    background-color: #f5f2f0;
+  }
+  * {
+    margin: 0;
+  }
+  .school {
+    color: #d2691e;
+    font-size: 25px;
+  }
+  .register {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .fixed {
+    padding: 40px;
+    background-color: #9b9b9b;
+    margin-top: 100px;
+    margin-block-end: 20px;
+    -webkit-box-shadow: 2px 3px 18px 9px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 3px 18px 9px rgba(0, 0, 0, 1);
+    box-shadow: 2px 3px 18px 9px rgba(0, 0, 0, 1);
+  }
+  #sub {
+    margin-left: 25px;
+  }
+  #add {
+    margin-left: 25px;
+  }
+  
+  .size {
+    max-width: 100%;
+    height: 100px;
+  }
+  
+  .table-fixed {
+    padding: 40px;
+    margin-top: 10px;
+    background-color: #c2d0dc;
+    margin-block-end: 20px;
+  }
+  .forget {
+    font-size: 20px;
+    padding-left: 108px;
+  }
+  .button {
+    border-radius: 30px;
+  }
+  .labelColor {
+    color: red;
+  }
+  
+  .fix-image {
+    height: 221px;
+    object-fit: contain;
+  }
+  
+  .fix-news {
+    margin-top: 25px;
+  }
+  .footer {
+    background-color: #f8f9fa !important;
+    /* height: 50px; */
+    color: black;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .center {
+    align-items: center;
+  }
+  .mycard {
+    transition: transform 450ms;
+  }
+  
+  .mycard:hover {
+    transform: scale(1.08);
+    /* opacity: 1; */
+  }
+  
+  .sb-avatar__image {
+    transition: transform 420ms !important;
+  }
+  .sb-avatar__image:hover {
+    transform: scale(1.08) !important;
+  }
+  .fix-activities {
+    margin-top: 25px;
+  }
+  
